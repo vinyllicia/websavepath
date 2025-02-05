@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart Download Organizer</title>
+    <script src="popup.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5 bg-gray-900 text-white w-80">
+    <h3 class="text-xl font-semibold mb-2">Download Organizer</h3>
+    
+    <input type="text" id="websiteURL" placeholder="Enter website (example.com)" 
+        class="w-full p-2 mb-2 bg-gray-800 border border-gray-700 rounded">
+    
+    <input type="text" id="folderName" placeholder="Enter folder name" 
+        class="w-full p-2 mb-2 bg-gray-800 border border-gray-700 rounded">
+    
+    <input type="text" id="fileTypes" placeholder="Allowed file types (jpg, png, mp4)" 
+        class="w-full p-2 mb-2 bg-gray-800 border border-gray-700 rounded">
+    
+    <button id="save" class="w-full bg-blue-500 hover:bg-blue-600 p-2 rounded">Save</button>
+
+    <h4 class="mt-4 font-medium">Saved Websites:</h4>
+    <ul id="siteList" class="mt-2"></ul>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Site-Specific Download Path",
+  "version": "1.0",
+  "description": "Choose custom download folders for different websites.",
+  "permissions": ["downloads", "storage", "activeTab"],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
